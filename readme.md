@@ -1,14 +1,14 @@
 # Über ...
-ledDimemrESP8266_R1A ist meine erste "Interpretation" eines LED Dimmers auf ESP8266 Basis.
-ledDimemrESP8266 ist ein 4-kanaliger Dimmer auf Basis des ESP8266 12E, wie der Name hoffentlcih
+ledDimmmerESP8266_R1A ist meine erste "Interpretation" eines LED Dimmers auf ESP8266 Basis.
+ledDimmerESP8266 ist ein 4-kanaliger Dimmer auf Basis des ESP8266 12E, wie der Name hoffentlcih
 bereits vermuten lässt.
 
 ## Versionsgeschichte
 2020-03-31 R1A
 
 ## Was kann der Dimmer
-Nach dem ersten Download des Sketches erst einmal nur ein Drahtloses
-Netzwerk zu Verfügung stellen über das er dann konfiguriert werden kann.<br/>
+Nach dem ersten Download des Sketches wird erst einmal nur ein Drahtloses
+Netzwerk zu Verfügung gestellt über das der Dimmer dann konfiguriert werden kann.<br/>
 Wenn der Dimmer keine gültigen Daten für die Anmeldung ain einem WLAN zur Verfügung hat
 stellt er sein eigenes WLAN mit dem Name "ESPap" zur Verfügung.
 Mittels des Passwortes "changeme" kann über WLAN eine Verbindung zu dem Dimmer
