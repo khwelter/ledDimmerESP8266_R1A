@@ -1,10 +1,14 @@
 # Über ...
 ledDimmmerESP8266_R1A ist meine erste "Interpretation" eines LED Dimmers auf ESP8266 Basis.
-ledDimmerESP8266 ist ein 4-kanaliger Dimmer auf Basis des ESP8266 12E, wie der Name hoffentlcih
-bereits vermuten lässt.
+ledDimmerESP8266 ist ein 4-kanaliger Dimmer und gestattet damit die Ansteuerung von LED Stripes mit RGBW Farben.
+Der von mir verwendete Leistungstreiber kann 12-24 V mit max. 4A pro Kanal bei 12 V oder 2A bei 24V.
 
 ## Versionsgeschichte
 2020-03-31 R1A
+
+## ToDo
+Derzeit kann der Dimmwert lediglich über den Duty Cycle (Verhältnis von An- zu Aus-Zeit verstellt werden. Eine Einstellung
+der absoluten Helligkeit in Prozent ist derzeit noch in der Planung.
 
 ## Was kann der Dimmer
 Nach dem ersten Download des Sketches wird erst einmal nur ein Drahtloses
